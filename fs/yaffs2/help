@@ -1,0 +1,78 @@
+yaffs_checkptrw.c:100:	struct yaffs_ext_tags tags;
+yaffs_checkptrw.c:206:	struct yaffs_ext_tags tags;
+yaffs_checkptrw.c:291:	struct yaffs_ext_tags tags;
+yaffs_guts.c:219:				     const struct yaffs_ext_tags *tags)
+yaffs_guts.c:228:				      const struct yaffs_ext_tags *tags)
+yaffs_guts.c:322:	struct yaffs_ext_tags tags;
+yaffs_guts.c:346:				      struct yaffs_ext_tags *tags)
+yaffs_guts.c:349:	struct yaffs_ext_tags temp_tags;
+yaffs_guts.c:510:				 struct yaffs_ext_tags *tags, int use_reserver)
+yaffs_guts.c:626:			struct yaffs_ext_tags tags;
+yaffs_guts.c:959:static int yaffs_tags_match(const struct yaffs_ext_tags *tags, int obj_id,
+yaffs_guts.c:969:					struct yaffs_ext_tags *tags, int obj_id,
+yaffs_guts.c:997:				    struct yaffs_ext_tags *tags)
+yaffs_guts.c:1002:	struct yaffs_ext_tags local_tags;
+yaffs_guts.c:1024:				     struct yaffs_ext_tags *tags)
+yaffs_guts.c:1029:	struct yaffs_ext_tags local_tags;
+yaffs_guts.c:1068:	struct yaffs_ext_tags existing_tags;
+yaffs_guts.c:1069:	struct yaffs_ext_tags new_tags;
+yaffs_guts.c:2404:	struct yaffs_ext_tags tags;
+yaffs_guts.c:2943:	struct yaffs_ext_tags tags;
+yaffs_guts.c:3005:	struct yaffs_ext_tags prev_tags;
+yaffs_guts.c:3007:	struct yaffs_ext_tags new_tags;
+yaffs_guts.c:3104:	struct yaffs_ext_tags tags;
+yaffs_guts.c:3177:	struct yaffs_ext_tags tags;
+yaffs_guts.c:3289:	struct yaffs_ext_tags new_tags;
+yaffs_guts.c:3290:	struct yaffs_ext_tags old_tags;
+yaffs_guts.h:179:struct yaffs_ext_tags {
+yaffs_guts.h:570:				    const struct yaffs_ext_tags *tags);
+yaffs_guts.h:573:				   struct yaffs_ext_tags *tags);
+yaffs_mtdif1.c:94:			      const struct yaffs_ext_tags *etags)
+yaffs_mtdif1.c:149:static int rettags(struct yaffs_ext_tags *etags, int ecc_result, int retval)
+yaffs_mtdif1.c:173:			     struct yaffs_ext_tags *etags)
+yaffs_mtdif1.c:329:	struct yaffs_ext_tags etags;
+yaffs_mtdif1.h:19:			      const struct yaffs_ext_tags *tags);
+yaffs_mtdif1.h:22:			     u8 *data, struct yaffs_ext_tags *tags);
+yaffs_mtdif2.c:41:			      const struct yaffs_ext_tags *tags)
+yaffs_mtdif2.c:111:			     u8 *data, struct yaffs_ext_tags *tags)
+yaffs_mtdif2.c:247:		struct yaffs_ext_tags t;
+yaffs_mtdif2.h:22:			      const struct yaffs_ext_tags *tags);
+yaffs_mtdif2.h:24:			     u8 *data, struct yaffs_ext_tags *tags);
+yaffs_nand.c:21:			     u8 *buffer, struct yaffs_ext_tags *tags)
+yaffs_nand.c:24:	struct yaffs_ext_tags local_tags;
+yaffs_nand.c:53:				const u8 *buffer, struct yaffs_ext_tags *tags)
+yaffs_nand.h:21:			     u8 *buffer, struct yaffs_ext_tags *tags);
+yaffs_nand.h:25:			     const u8 *buffer, struct yaffs_ext_tags *tags);
+yaffs_packedtags1.c:26:		      const struct yaffs_ext_tags *t)
+yaffs_packedtags1.c:38:void yaffs_unpack_tags1(struct yaffs_ext_tags *t,
+yaffs_packedtags1.c:54:		memset(t, 0, sizeof(struct yaffs_ext_tags));
+yaffs_packedtags1.h:36:		      const struct yaffs_ext_tags *t);
+yaffs_packedtags1.h:37:void yaffs_unpack_tags1(struct yaffs_ext_tags *t,
+yaffs_packedtags2.c:53:static void yaffs_dump_tags2(const struct yaffs_ext_tags *t)
+yaffs_packedtags2.c:63:static int yaffs_check_tags_extra_packable(const struct yaffs_ext_tags *t)
+yaffs_packedtags2.c:76:				const struct yaffs_ext_tags *t)
+yaffs_packedtags2.c:112:		      const struct yaffs_ext_tags *t, int tags_ecc)
+yaffs_packedtags2.c:122:void yaffs_unpack_tags2_tags_only(struct yaffs_ext_tags *t,
+yaffs_packedtags2.c:125:	memset(t, 0, sizeof(struct yaffs_ext_tags));
+yaffs_packedtags2.c:160:void yaffs_unpack_tags2(struct yaffs_ext_tags *t, struct yaffs_packed_tags2 *pt,
+yaffs_packedtags2.h:38:		      const struct yaffs_ext_tags *t, int tags_ecc);
+yaffs_packedtags2.h:39:void yaffs_unpack_tags2(struct yaffs_ext_tags *t, struct yaffs_packed_tags2 *pt,
+yaffs_packedtags2.h:44:				const struct yaffs_ext_tags *t);
+yaffs_packedtags2.h:45:void yaffs_unpack_tags2_tags_only(struct yaffs_ext_tags *t,
+yaffs_summary.c:120:	struct yaffs_ext_tags tags;
+yaffs_summary.c:135:	memset(&tags, 0, sizeof(struct yaffs_ext_tags));
+yaffs_summary.c:182:	struct yaffs_ext_tags tags;
+yaffs_summary.c:251:			struct yaffs_ext_tags *tags,
+yaffs_summary.c:280:			struct yaffs_ext_tags *tags,
+yaffs_summary.h:26:			struct yaffs_ext_tags *tags,
+yaffs_summary.h:29:			struct yaffs_ext_tags *tags,
+yaffs_tagscompat.c:282:			 const u8 *data, const struct yaffs_ext_tags *ext_tags)
+yaffs_tagscompat.c:314:			 u8 *data, struct yaffs_ext_tags *ext_tags)
+yaffs_tagscompat.h:22:			 const u8 *data, const struct yaffs_ext_tags *tags);
+yaffs_tagscompat.h:25:			 u8 *data, struct yaffs_ext_tags *tags);
+yaffs_verify.c:169:		     struct yaffs_ext_tags *tags, int parent_check)
+yaffs_verify.c:234:	struct yaffs_ext_tags tags;
+yaffs_verify.c:354:		struct yaffs_ext_tags tags;
+yaffs_verify.h:28:		     struct yaffs_ext_tags *tags, int parent_check);
+yaffs_yaffs1.c:24:	struct yaffs_ext_tags tags;
+yaffs_yaffs2.c:948:	struct yaffs_ext_tags tags;

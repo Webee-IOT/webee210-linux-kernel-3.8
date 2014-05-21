@@ -1,8 +1,8 @@
 ###参与webee210-linux-kernel-3.8的开发
 
-如果你想参与本__webee210-linux-kernel-3.8__的开发,请用力hit下面的链接:
+如果你想参与__webee210-linux-kernel-3.8__的开发,请用力hit下面的链接:
 
-[webee210-rootfs-qt4.8](https://github.com/iZobs/webee210-rootfs-qt4.8/blob/master/Develop-doc.md)
+[webee210-rootfs-qt4.8](https://github.com/iZobs/webee210-linux-kernel-3.8/blob/master/Develop-doc.md)
 
 ###关于
 这是网蜂webee210的linux 内核，仅适合于webee210v2开发板的使用。该内核基于`kernel-org`的linux-kernel-3.8.0进行修改的。
